@@ -38,8 +38,8 @@ const Header = () => {
                     <button>Login</button>
                     <i
                         className={mobile
-                        ? "fa-solid fa-bars"
-                        : "fa-solid fa-xmark"}
+                        ? "fa-solid fa-bars menuMobile"
+                        : "fa-solid fa-xmark menuMobile"}
                         onClick={() => {
                         setMobile(!mobile)
                     }}/>

@@ -160,7 +160,7 @@ font-size: 22px;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 0px 50px;
+    padding: 0px 10px;
 } 
 .logo{
     width: 120px;
@@ -174,8 +174,9 @@ font-size: 22px;
     background-color: gray;
     position: absolute;
     display: flex;
-    height: 100vh; 
+    height: 70vh; 
     width: 100%;
+    gap: 10px;
     justify-content: center;
     flex-direction: column; 
     top: 80px;
@@ -183,14 +184,17 @@ font-size: 22px;
 }
 .NavSocailLinks{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 
 }
 .NavSocailLinks a i{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
    }
- 
+ .menuMobile{
+    position: absolute;
+    right: 0px;
+ }
 .HeaderNavCart{
     display: none;
     gap:20px;
@@ -211,6 +215,8 @@ font-size: 22px;
     gap:20px;
     color: rgb(14, 131, 33); 
     display: flex;
+    position: relative;
+    padding-right: 50px;
  }
      
       }
