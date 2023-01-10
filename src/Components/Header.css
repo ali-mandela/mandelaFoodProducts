@@ -1,0 +1,216 @@
+/* tags */
+.HeaderMain a{
+font-size: 22px;
+}
+.HeaderMain button{
+    font-size: 18px;
+}
+.HeaderMain i{
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+/* Classes */
+.HeaderOuter{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    box-shadow: 2px 2px 4px rgb(100, 100, 100);
+}
+.HeaderMain{ 
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+} 
+.logo{
+    width: 160px;
+    height: 80px;
+}
+.HeaderNav{
+    display: flex;
+    gap: 50px;
+}
+.HeaderNavMenu{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.HeaderNavMenu a{ 
+  color: rgb(14, 131, 33);
+}
+.HeaderNavCart{
+    display: flex;
+    gap:30px;
+    color: rgb(14, 131, 33); 
+}
+.HeaderNavCart button{
+   width: 90px; 
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.HeaderNavCart button:hover{
+    background-color: rgb(14, 131, 33);
+    border: none;
+    color: white;
+ }
+ .mobileMenu{
+    display: none;
+ }
+ .NavSocailLinks{
+    display: none;
+ }
+ @media screen and (max-width: 1100px) and (min-width: 700px) {
+ /* tags */
+.HeaderMain a{
+    font-size: 16px;
+    }
+    .HeaderMain button{
+        font-size: 16px;
+    }
+    .HeaderMain i{
+        font-size: 30px;
+        cursor: pointer;
+    
+    }/* Classes */
+.HeaderOuter{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    box-shadow: 2px 2px 4px rgb(100, 100, 100);
+}
+.HeaderMain{ 
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+} 
+.logo{
+    width: 120px;
+    height: 60px;
+}
+.HeaderNav{
+    display: flex;
+    gap: 40px;
+}
+.HeaderNavMenu{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.HeaderNavMenu a{ 
+  color: rgb(14, 131, 33);
+}
+.HeaderNavCart{
+    display: flex;
+    gap:20px;
+    color: rgb(14, 131, 33); 
+}
+.HeaderNavCart button{
+   width: 70px; 
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+.HeaderNavCart button:hover{
+    background-color: rgb(14, 131, 33);
+    border: none;
+    color: white;
+ }
+ .mobileMenu{
+    display: none;
+ }
+ .NavSocailLinks{
+    display: none;
+ }
+  }
+  @media screen and (max-width: 700px) {
+      /* tags */
+.HeaderMain a{
+    font-size: 16px;
+    }
+    .HeaderMain button{
+        font-size: 16px;
+    }
+    .HeaderMain i{
+        font-size: 30px;
+        cursor: pointer;
+    
+    }/* Classes */
+.HeaderOuter{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    box-shadow: 2px 2px 4px rgb(100, 100, 100);
+}
+.HeaderMain{ 
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 50px;
+} 
+.logo{
+    width: 120px;
+    height: 60px;
+}
+.HeaderNav{ 
+    display: flex;
+        gap: 40px;
+}
+.HeaderNavMenu{
+    background-color: gray;
+    position: absolute;
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+    justify-content: center;
+    flex-direction: column; 
+    top: 80px;
+    left: 0px;  
+}
+.NavSocailLinks{
+    display: flex;
+    gap: 20px;
+
+}
+.NavSocailLinks a i{
+    font-size: 16px;
+    color: white;
+   }
+ 
+.HeaderNavCart{
+    display: none;
+    gap:20px;
+    color: rgb(14, 131, 33); 
+}
+.HeaderNavCart button{
+   width: 70px; 
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+.HeaderNavCart button:hover{
+    background-color: rgb(14, 131, 33);
+    border: none;
+    color: white;
+ }
+ .mobileMenu{
+    gap:20px;
+    color: rgb(14, 131, 33); 
+    display: flex;
+ }
+     
+      }
