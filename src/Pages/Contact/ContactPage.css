@@ -1,0 +1,13 @@
+h1{
+    color: green;
+}
+.ContactPage-outer{
+padding: 0 80px;
+}
+.contact-page-body{
+    display: flex;  
+}
+.contactBody1{
+    display: flex;
+flex: 3;
+}

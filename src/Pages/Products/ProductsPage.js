@@ -1,9 +1,11 @@
 import React from 'react'
 
 const Products = () => {
-  return (
-    <div>Products</div>
-  )
+  {document.title = "MFD | Products"}
+
+  return (<>
+    <h1>Products</h1>
+  </> )
 }
 
 export default Products

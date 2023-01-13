@@ -1,0 +1,11 @@
+.WhyUsOuter{
+    /* display: flex; */
+    padding: 40px 80px;
+    /* flex-wrap: wrap; */
+}
+.whyusBody{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

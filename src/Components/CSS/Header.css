@@ -173,7 +173,7 @@ font-size: 22px;
 .HeaderNavMenu{
     background-color: gray;
     position: absolute;
-    display: flex;
+    display: none;
     padding-top: 120px;
     height: 70vh; 
     width: 100%;
